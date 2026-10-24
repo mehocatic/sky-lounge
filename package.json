@@ -1,0 +1,22 @@
+{
+  "name": "skylounge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SkyLounge - premium shisha and caffe bar in Sanski Most",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 3000",
+    "start": "npm run dev",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "vite": "^8.3.5"
+  },
+  "dependencies": {
+    "lucide-react": "^1.61.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.4"
+  }
+}
